@@ -1,0 +1,7 @@
+/* src/components/GradientText.css */
+.gradient-text {
+  background: linear-gradient(to right, #f43f5e, #3b82f6);
+  /* Red to Blue gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
