@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../assets/img_png.png";
+import MyImg from "../assets/My.png";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
           <img
-            src={myImage}
+            src={MyImg}
             alt=""
             className="w-72 h-80 rounded object-cover  transform transition-transform duration-300 
                  hover:scale-105 mb-8 md:mb-0 shadow-lg shadow-white"

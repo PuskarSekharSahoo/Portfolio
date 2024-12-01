@@ -1,5 +1,4 @@
 
-
 import React from "react";
 import { motion } from "framer-motion";
 import About from "./components/About";
@@ -33,7 +32,6 @@ const App = () => {
       <div className="w-fit mt-0 ml-0">
         {/* Navbar is usually always visible, so no scroll animations here */}
         <Navbar darkMode={darkMode} handleToggle={handleToggle} />
-
         {/* Motion Div for Hero Section */}
         <motion.div
           initial="hidden"

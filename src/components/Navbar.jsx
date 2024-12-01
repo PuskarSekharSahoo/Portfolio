@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LikeButton from "./LikeButton";
 import "../App.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -72,9 +73,12 @@ const Navbar = ({ darkMode, handleToggle }) => {
                 </button>
               </div>
             </div>
-            <button className="hidden lg:block bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full transform transition-transform duration-300 hover:scale-105 mb-2">
+            <button className="hidden lg:block bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full transform transition-transform duration-300 hover:scale-105">
               <a href="#contact">Connect Me</a>
             </button>
+            <div className="sm:hidden mb-3">
+              <LikeButton />
+            </div>
           </div>
         </div>
       </div>
