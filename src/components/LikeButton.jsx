@@ -24,7 +24,7 @@ const LikeButton = () => {
       {/* Heart Button */}
       <button
         onClick={handleClick}
-        className="text-white text-3xl hover:text-cyan-400 focus:outline-none"
+        className=" text-3xl hover:text-cyan-500 focus:outline-none"
       >
         <AiFillLike />
       </button>
