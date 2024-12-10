@@ -13,7 +13,7 @@ import postman from "../assets/Skill_Images/postman.png";
 import react from "../assets/Skill_Images/react.png";
 import tailwind from "../assets/Skill_Images/tailwind.png";
 import vs from "../assets/Skill_Images/vs.png";
-import server from "../assets/Skill_Images/server.png";
+import jwt from "../assets/Skill_Images/JWT.png";
 
 // Store the images in an array
 const imagePaths = [
@@ -30,7 +30,7 @@ const imagePaths = [
   mysql,
   postman,
   vs,
-  server,
+  jwt,
 ];
 
 const Hero = () => {

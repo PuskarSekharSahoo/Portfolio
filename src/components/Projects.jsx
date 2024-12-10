@@ -1,29 +1,29 @@
 import React from "react";
 import nikeImage from "../assets/Nike.png";
 import HobankMSImage from "../assets/HoBank.png";
-import portfolioMSImage from "../assets/HoBank.png";
+import Noteapp from "../assets/Note.png";
 
 const projects = [
   {
     id: 1,
-    name: "Nike_LandingPage",
-    technologies: "React & Tailwind",
-    image: nikeImage,
-    github: "https://github.com/PuskarSekharSahoo/NikeWebsiteByMe",
+    name: "MERN Note App",
+    technologies: "React Node Express Mongo DB",
+    image: Noteapp,
+    github: "https://github.com/PuskarSekharSahoo/Mern_NoteApp",
   },
   {
     id: 2,
-    name: "Ho_Bank_LandingPage",
+    name: "HooBank Landing Page",
     technologies: "React & Tailwind",
     image: HobankMSImage,
     github: "https://github.com/PuskarSekharSahoo/HoBank-LandingPage",
   },
   {
     id: 3,
-    name: " My_Personal_Portfolio",
+    name: " Nike Landing Page UI",
     technologies: "React & Tailwind",
-    image: portfolioMSImage,
-    github: "https://github.com/PuskarSekharSahoo",
+    image: nikeImage,
+    github: "https://github.com/PuskarSekharSahoo/NikeWebsiteByMe",
   },
 ];
 
